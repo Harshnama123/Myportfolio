@@ -31,6 +31,15 @@ const Hero = () => {
         <div className="absolute bottom-20 right-10 w-16 h-16 border border-green-400/30 animate-bounce hidden md:block"></div>
         <div className="absolute top-32 right-20 w-12 h-12 bg-gradient-to-br from-cyan-400/20 to-green-400/20 rotate-12 animate-pulse hidden lg:block"></div>
         
+        {/* Profile Photo */}
+        <div className="flex items-center justify-center mb-6 mt-16">
+          <img
+            src="hhn.jpeg"
+            alt="Harsh Namdev Profile"
+            className="w-32 h-32 rounded-full border-4 border-cyan-400 shadow-lg object-cover hover:scale-110 transition-transform duration-300"
+          />
+        </div>
+        
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
           <span className="block bg-gradient-to-r from-cyan-400 via-blue-500 to-green-400 bg-clip-text text-transparent animate-gradient">
             HARSH
